@@ -1,7 +1,7 @@
 /** GLOBAL SETTINGS **/
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    src: url('Roboto-Regular.ttf') format('truetype');
     /* add other font styles as needed */
 }
 ::-webkit-scrollbar-track
@@ -187,7 +187,7 @@ a {
     /** MAIN SECTIONS **/
     .hero-block {
         display: flex;
-        background-image: url('../images/hero.png');
+        background-image: url('hero.png');
         background-size: cover;
         height: 100vh;
         width: 100%;
