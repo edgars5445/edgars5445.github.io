@@ -152,7 +152,8 @@ a {
     }
 
     .languages {
-        margin-left: auto; /* Push languages to the right */
+        position: absolute;
+        right: 2rem;
         min-width: 6.25rem;
     }
     .language {

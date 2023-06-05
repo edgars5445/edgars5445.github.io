@@ -59,7 +59,8 @@
     }
 
     .mobile-languages {
-        margin-left: auto; /* Push languages to the right */
+        position: absolute;
+        right: 2rem;
         min-width: 6rem;
     }
     .mobile-language {
@@ -210,7 +211,6 @@
 
 
     .content .text {
-        text-align: justify;
         text-justify: inter-word;
     }
 
