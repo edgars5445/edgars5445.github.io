@@ -17,6 +17,10 @@ $(document).ready(function() {
                 $('.nav-item').removeClass('active').addClass('inactive');
                 $('.nav-items a[href="#' + id + '"]').removeClass('inactive').addClass('active');
             }
+
+            if($(this).attr('id') === 'nowhere' && currentPosition+100 <= target){
+                $('.nav-item').removeClass('active').addClass('inactive');
+            }
         });
     });
 });
@@ -29,14 +33,12 @@ function toggleMenu() {
     const isOpened = hamburger.classList.contains('opened');
     hamburger.classList.toggle('opened');
     if (isOpened) {
-        console.log('test1')
         navItems.classList.remove('closed');
         hamburger.classList.toggle('closed');
         arrow_up.classList.toggle('closed');
         arrow_up.classList.toggle('opened');
         navItems.style.maxHeight = navItems.scrollHeight + 'px';
     } else {
-        console.log('test2')
         arrow_up.classList.toggle('closed');
         arrow_up.classList.toggle('opened');
         hamburger.classList.toggle('closed');

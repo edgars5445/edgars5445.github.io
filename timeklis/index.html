@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <meta name="description" content="Just another page about the road to University"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Home page</title>
+    <title>Ceļš uz Latvijas Universitāti</title>
 </head>
 <body>
     <div class="mobile-nav-bar">
@@ -34,12 +34,12 @@
         </div>
 
         <div class="mobile-nav-items">
-            <a class="nav-item inactive" href="#nowhere">Tilts uz nekurieni</a>
-            <a class="nav-item inactive" href="#bridge">Vanšu tilts</a>
-            <a class="nav-item inactive" href="#castle">Rīgas pils</a>
-            <a class="nav-item inactive" href="#park">Bastejkalna parks</a>
-            <a class="nav-item inactive" href="#statue">Brīvības piemineklis</a>
-            <a class="nav-item inactive" href="#university">Latvijas Universitāte</a>
+            <a class="nav-item inactive" onclick="toggleMenu()" href="#nowhere">Tilts uz nekurieni</a>
+            <a class="nav-item inactive" onclick="toggleMenu()" href="#bridge">Vanšu tilts</a>
+            <a class="nav-item inactive" onclick="toggleMenu()" href="#castle">Rīgas pils</a>
+            <a class="nav-item inactive" onclick="toggleMenu()" href="#park">Bastejkalna parks</a>
+            <a class="nav-item inactive" onclick="toggleMenu()" href="#statue">Brīvības piemineklis</a>
+            <a class="nav-item inactive" onclick="toggleMenu()" href="#university">Latvijas Universitāte</a>
         </div>
     </div>
 
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <section class="main-content" id="start">
+    <section class="main-content --js-section-1" id="start">
         <div class="hero-block">
             <div class="hero-message">
                 <div class="heading">Mans ceļš uz Latvijas Universitāti</div>
@@ -77,16 +77,20 @@
         <div class="section animated" id="nowhere">
             <div class="heading title">Tilts uz nekurieni</div>
             <div class="content">
-                <div class="text regular-text mr-1">Mans ceļš sākas ar "Tiltu uz nekurieni". Šī vieta ļoti labi atspoguļo Rīgas infrastuktūras izaugsmi. Šī vieta pašlaik ir populāra apskates vieta gan instragrameru, gan tiktokeru vidū. Pats vēl neesmu kāpis uz šī monumenta, taču ikdienā braucot gar to, ir pavērusies tāda interese. Protams, ir jauki atskatīties uz šo vietu, taču tajā pat laikā paliek bēdīgī, jo iebraucu kārtejā bedrē, kura varēja tikt aizlāpīta par šī tilta uzbūves līdzekļiem.</div>
+                <div class="text regular-text mr-1">
+
+                    Mans ceļš sākas ar "Tiltu uz nekurieni", kas kļuvis par ievērojamu simbolu Rīgas infrastruktūras izaugsmei. Šī vieta ir kļuvusi par populāru apskates objektu, ne tikai instragrameru un tiktokeru vidū, bet arī vietējo iedzīvotāju starpā. Lai gan vēl neesmu kāpis uz šī monumenta, ikdienā braucot garām, es nevaru nepamosties no intereses, ko tas rada. Skatoties uz to, ir jūtama lepnuma sajūta, redzot, kā mūsu pilsēta attīstās un aug. Tomēr vienlaikus tā liek man izjust arī bēdīgumu, jo iebraucu kārtejā bedrē, kas varēja tikt aizlāpīta, izmantojot līdzekļus, kas tika ieguldīti šī tilta būvē. Tādējādi tas kļūst gan par skaistumu, gan arī atgādinājumu par neizpildītajiem infrastruktūras uzlabošanas plāniem.                </div>
                 <div class="image">
-                    <img src="assets/images/nowhere.jpg"/>
+                    <img src="assets/images/nowhere.jpg" alt="Tilts uz nekurieni"/>
                 </div>
             </div>
         </div>
         <div class="section animated" id="bridge">
             <div class="heading title">Vanšu tilts</div>
             <div class="bridge">
-                <div class="text regular-text">Šī vieta man visvairāk asociējas ar skaisto skatu pār Daugavu. Katru rītu braucot pāri tam - vai tas būtu ar velosipēdu vai ar auto - iebraucu kārtejā bedrē. Ir patīkami atrasties tik augstu virs Daugavas, taču nedaudz skatu bojā izvietotās "īslaicīgas" barjeras uz gājēju celiņa. Pūš patīkams vējiņš, kas liek atgādīnāt par jūras spēcīgajiem viļņiem.</div>
+                <div class="text regular-text">
+                    Šī vieta man visvairāk asociējas ar skaisto skatu pār Daugavu. Katru rītu, neatkarīgi vai braucu ar velosipēdu vai ar auto, iebraucu tajā pašā bedrē, kas netiek salabota jau gadiem ilgi. Lai gan augšupcelšanās virs Daugavas ir patīkams, nedaudz skatu traucē "īslaicīgās" barjeras uz gājēju celiņa. Taču, pievēršoties vējainajam vējam, kas pūš un atgādina par spēcīgiem jūras viļņiem, rodas savdabīga un dzīva sajūta. Šis kontrasts starp aizraujošo skatu un infrastruktūras trūkumiem piešķir šai vietai daudzveidīgu raksturu. Tas ir aicinājums pārdomāt un uzlabot tiltu, nodrošinot drošu un gludu ceļu pāri Daugavai, lai pilnībā izbaudītu šo ikdienas pieredzi. Tiltā varētu iekļaut arī vides elementus, piemēram, ziedu dobes un sēdvietas, kas veicinātu brīvā laika pavadīšanu un piesaistītu vairāk cilvēkus. Tādējādi šī vieta kļūtu par patīkamu un pievilcīgu atpūtas vietu gan vietējiem iedzīvotājiem, gan tūristiem. Ideālā gadījumā, tiltā būtu arī speciālas zaļās enerģijas ražošanas sistēmas, kas veicinātu videi draudzīgu enerģijas izmantošanu un palīdzētu samazināt CO2 emisijas. Tādējādi, ievērojami uzlabojot infrastruktūru, mēs varētu padarīt šo vietu vēl pievilcīgāku un saskaņotāku ar dabas aizsardzības principiem.
+                </div>
                 <div class="bridge-image zoom">
                     <img src="assets/images/vansu_bridge.jpg" alt="Vanšu tilts" />
                 </div>
@@ -96,18 +100,21 @@
             <div class="heading title">Rīgas pils</div>
             <div class="content rev">
                 <div class="image">
-                    <img src="assets/images/castle.jpg"/>
+                    <img src="assets/images/castle.jpg" alt="Rīgas pils"/>
                 </div>
-                <div class="text regular-text">Šo vietu ikdienā aplūkoju braucot pāri Vanšu tiltam. Ir patīkami redzēt, cik sakopta ir tās teritorija, taču tajā pat laikā, ārpus tās, ir diezgan piesārņots ar Vecrīgas tusētaju atkritumiem. Katru darba dienas rītu var nolūkoties uz cilvēkiem, kas sēž ar saviem auto sastrēgumos un triec tos kārtējās bedrēs.</div>
+                <div class="text regular-text">
+                    Šo vietu ikdienā aplūkoju braucot pāri Vanšu tiltam. Ir patīkami redzēt, cik sakopta ir tās teritorija, taču tajā pat laikā, ārpus tās, ir diezgan piesārņots ar Vecrīgas tusētaju atkritumiem. Katru darba dienas rītu var nolūkoties uz cilvēkiem, kas sēž ar saviem auto sastrēgumos un triec tos kārtējās bedrēs. Tas liek apdomāt, vai ir citi transporta veidi, kas būtu videi draudzīgāki un mazinātu satiksmes intensitāti šajā vietā. Vienlaikus, skatoties uz Daugavas virsu, var vērot dažādus ūdens kuģus, kas pārvietojas pa upi, sniedzot vēl vienu dimensiju šai ainavai. Tas rada iespēju izmantot Daugavu ne tikai kā transporta ceļu, bet arī kā tūrisma un atpūtas resursu. Varbūt šī vieta varētu kļūt par iecienītu maršrutu velosipēdu braucējiem, kur viņi varētu baudīt gan skaisto skatu, gan aktīvi pavadīt laiku dabā.                </div>
             </div>
         </div>
         <div class="section animated" id="park">
             <div class="heading title">Bastejkalna parks</div>
             <div class="content">
                 <div class="image">
-                    <img src="assets/images/bastejkalns.jpg"/>
+                    <img src="assets/images/bastejkalns.jpg" alt="Bastejkalna parks"/>
                 </div>
-                <div class="text regular-text">Manuprāt, vispatīkamā vieta rīgā, ir salīdzinoši kluss un mierīgs, izņemot skaļos BMW, kas triecas uz priekšu ar saviem "taisnajiem izpūtējiem". Ir ļoti jauki redzēt, kad kāds ved savu suni pastaigā, vai arī kāds cits brīvdabā saulainā laikā lasa grāmatu. Šī vieta vienmēr asociējas ar Latvijas Universitātes klātbutni - kur mūs visus vienmēr gaida smaidīgi pasniedzēji.</div>
+                <div class="text regular-text">
+                    Manuprāt, vispatīkamākā vieta Rīgā ir salīdzinoši kluss un mierīgs, izņemot skaļos BMW, kas triecas uz priekšu ar saviem "taisnajiem izpūtējiem". Ir ļoti jauki redzēt, kad kāds ved savu suni pastaigā vai arī kāds cits brīvdabā saulainā laikā lasa grāmatu. Šī vieta vienmēr asociējas ar Latvijas Universitātes klātbūtni, kur mūs visus vienmēr gaida smaidīgi pasniedzēji. No rīta ir dzirdams studentu sastrēgums, kad viņi steidzas uz lekcijām, bet pēcpusdienā šī vieta kļūst mierīga un aicinājumu izbaudīt pilsētas atmosfēru kopā ar citiem iedzīvotājiem. Šajā vietā var just Rīgas vēju, kas plūst cauri cilvēku dzīvei un kultūras daudzveidībai. Tas ir kā mikrokosmoss, kur satiekas dažādas pasaules - studenti, iedzīvotāji, tūristi. Tā ir vieta, kur ikviens var justies daļa no lielās pilsētas sarūpētās prieka, būdams vienkārši klusums, kas mājo starp visiem skaļajiem un ātrajiem brīžiem.
+                </div>
             </div>
         </div>
 
@@ -115,18 +122,22 @@
             <div class="heading title">Brīvības piemineklis</div>
             <div class="content">
                 <div class="image half-size">
-                    <img src="assets/images/monument.jpg"/>
+                    <img src="assets/images/monument.jpg" alt="Brīvības piemineklis"/>
                 </div>
-                <div class="text regular-text">Brīvības piemineklis ir ļoti jauka vieta. Tā vienmēr liek atcerēties Latvijas brīvības cīnītājus. Ir svarīgi šo vietu kopt, uzturēt un neļaut nevienam svešajam to no mums atņemt! Uzskatu, ka Kārļa Zāles projekts "Mirdzi kā zvaigzne!" ir ļoti izdevies un ikvienam latvietim, tūristam vai kādam citam, šī vieta liek acīm mirdzēt.</div>
+                <div class="text regular-text">
+                    Brīvības piemineklis ir ļoti jauka vieta. Tā vienmēr liek atcerēties Latvijas brīvības cīnītājus. Ir svarīgi šo vietu kopt, uzturēt un neļaut nevienam svešajam to no mums atņemt! Uzskatu, ka Kārļa Zāles projekts "Mirdzi kā zvaigzne!" ir ļoti izdevies un ikvienam latvietim, tūristam vai kādam citam, šī vieta liek acīm mirdzēt. Piemineklis ir ne tikai simbolisks, bet arī vizuāli aizraujošs, it kā zvaigznes rotātu Latvijas gaisu. Tā smalkais detaļu darbs un skaistums piešķir vietai īpašu gaisotni. Šeit, ap stāvlaukumu, var justies svinīgi un lepni par Latvijas vēsturi un brīvību. Tas ir kā tāds latvietības spogulis, kas atgādina mūs par cieņu, godu un neatkarību. Pieņemu, ka daudzi ierodas šeit, lai atskatītos uz pieminekli ar lepnumu un dziļu pateicību tiem, kas cīnījās par mūsu valsti.
+                </div>
             </div>
         </div>
         <div class="section animated" id="university">
             <div class="heading title">Latvijas universitāte</div>
             <div class="content">
                 <div class="image">
-                    <img src="assets/images/university.jpg"/>
+                    <img src="assets/images/university.jpg" alt="Latvijas Universitāte"/>
                 </div>
-                <div class="text regular-text">Un te nu mēs esam - Latvijas Universitātē. Vieta, kur jaunieši un ikviens, kas vēlas izglītoties kāpj pa savām karjeras kāpnēm. Ir patīkami satikt gan pasniedzējus, gan arī pārejos kolēģus šeit. Universitāte man asociējas ar domu apmaiņu ar kolēģiem, lietu pētīšanu un zināšanu apgūšanu. Ierodoties šeit, galvenais ir neaizmirst izmantot tikai sānējās kāpnes pie galvenajām durvīm, sliktākajā gadījumā - jāizmanto logs. Protams, ne vienmēr ir tik labi kā izklausās, reizēm šeit ir auksti, logi pūš, taču tikuntā, tā ir mūsu - Latvijas Universitāte! </div>
+                <div class="text regular-text">
+                    Un te nu mēs esam - Latvijas Universitātē. Šī ir vieta, kur jaunieši un ikviens, kas vēlas izglītoties un augt personībā, kāpj pa savām karjeras kāpnēm. Ir patīkami satikt gan iedvesmojošus pasniedzējus, kas dedzīgi dalās savās zināšanās, gan arī saskarties ar dažādām perspektīvām un talantīgiem kolēģiem. Latvijas Universitāte man asociējas ar dziļu domu apmaiņu, kritisku prātu, kas vairo idejas, kā arī dziļu iedziļināšanos lietu pētīšanā un zināšanu apgūšanā. Ierodoties šeit, galvenais ir neaizmirst izmantot tikai sānējās kāpnes pie galvenajām durvīm, sliktākajā gadījumā - jāizmanto logs, kā simbolisks ceļš uz gudrību un atklāsmēm. Protams, ne vienmēr ir tik labi kā izklausās, reizēm šeit ir auksti, logi pūš, bet tieši tāpēc mēs cenšamies pārvarēt šķēršļus un doties pretī zināšanu un izaugsmes iespējām. Tāpēc, bez šaubām, Latvijas Universitāte ir daļa no mums, kas ik dienas mūs papildina ar jaunām atziņām un veicina mūsu personīgo attīstību.
+                </div>
             </div>
         </div>
     </section>

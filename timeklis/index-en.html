@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <meta name="description" content="Just another page about the road to University"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Home page</title>
+    <title>Road to University of Latvia</title>
 </head>
 <body>
 <div class="mobile-nav-bar">
@@ -34,12 +34,12 @@
     </div>
 
     <div class="mobile-nav-items">
-        <a class="nav-item inactive" href="#nowhere">A bridge to nowhere</a>
-        <a class="nav-item inactive" href="#bridge">The Vanšu Bridge</a>
-        <a class="nav-item inactive" href="#castle">Riga Castle</a>
-        <a class="nav-item inactive" href="#park">Bastejkalns Park</a>
-        <a class="nav-item inactive" href="#statue">Freedom Monument</a>
-        <a class="nav-item inactive" href="#university">University Of Latvia</a>
+        <a class="nav-item inactive" onclick="toggleMenu()" href="#nowhere">A bridge to nowhere</a>
+        <a class="nav-item inactive" onclick="toggleMenu()" href="#bridge">The Vanšu Bridge</a>
+        <a class="nav-item inactive" onclick="toggleMenu()" href="#castle">Riga Castle</a>
+        <a class="nav-item inactive" onclick="toggleMenu()" href="#park">Bastejkalns Park</a>
+        <a class="nav-item inactive" onclick="toggleMenu()" href="#statue">Freedom Monument</a>
+        <a class="nav-item inactive" onclick="toggleMenu()" href="#university">University Of Latvia</a>
     </div>
 </div>
 
@@ -77,18 +77,22 @@
     <div class="section animated" id="nowhere">
         <div class="heading title">A bridge to nowhere</div>
         <div class="content">
-            <div class="text regular-text mr-1">My journey begins with "Bridge to Nowhere". This place reflects the growth of Riga's infrastructure very well. This place is currently a popular attraction among Instagrammers and Tiktokers alike. I have not yet climbed this monument myself, but driving past it every day has opened up such an interest. Of course, it's nice to look back at this place, but at the same time it's sad, because I drove into another pothole, which could have been patched with the funds for the construction of this bridge.</div>
+            <div class="text regular-text mr-1">
+                My path begins with the "Bridge to Nowhere", which has become a prominent symbol of Riga's infrastructure growth. This place has become a popular attraction, not only among Instagrammers and tiktokers, but also among local residents. Although I have not yet climbed this monument, I can't help but wake up from the interest it creates when I drive by everyday. Looking at it, there is a sense of pride in seeing our city develop and grow. However, at the same time, it also makes me feel sad because I drove into a regular pothole that could have been patched using the funds that were invested in the construction of this bridge. Thus, it becomes both a beauty and a reminder of unfulfilled infrastructure improvement plans.
+            </div>
             <div class="image">
-                <img src="assets/images/nowhere.jpg"/>
+                <img src="assets/images/nowhere.jpg" alt="Bridge to nowhere"/>
             </div>
         </div>
     </div>
     <div class="section animated" id="bridge">
         <div class="heading title">The Vanšu bridge</div>
         <div class="bridge">
-            <div class="text regular-text">I associate this place most with the beautiful view over the Daugava. Every morning when I drive over it - be it by bike or by car - I hit a regular pit. It's nice to be so high above the Daugava, but the "temporary" barriers on the footpath spoil the view a bit. A pleasant breeze is blowing, reminding you of the strong waves of the sea.</div>
+            <div class="text regular-text">
+                I associate this place most with the beautiful view over the Daugava. Every morning, regardless of whether I ride a bike or a car, I drive into the same pothole that has not been repaired for years. Although the ascent above the Daugava is pleasant, the "temporary" barriers on the footpath slightly obstruct the view. However, turning to the breezy wind that blows and reminds of strong sea waves, there is a peculiar and alive feeling. This contrast between the fascinating view and the lack of infrastructure gives the place a diverse character. It is a call to rethink and improve the bridge, providing a safe and smooth way across the Daugava to fully enjoy this daily experience. The bridge could also include environmental features such as flower beds and seating that would encourage leisure and attract more people. Thus, this place would become a pleasant and attractive place of recreation for both local residents and tourists. Ideally, the bridge would also have dedicated green energy production systems that would promote environmentally friendly energy use and help reduce CO2 emissions. Thus, by significantly improving the infrastructure, we could make this place even more attractive and in line with the principles of nature conservation.
+            </div>
             <div class="bridge-image zoom">
-                <img src="assets/images/vansu_bridge.jpg" alt="Vanšu tilts" />
+                <img src="assets/images/vansu_bridge.jpg" alt="Vanšu bridge" />
             </div>
         </div>
     </div>
@@ -96,18 +100,22 @@
         <div class="heading title">Riga Castle</div>
         <div class="content rev">
             <div class="image">
-                <img src="assets/images/castle.jpg"/>
+                <img src="assets/images/castle.jpg" alt="Riga Castle"/>
             </div>
-            <div class="text regular-text">I look at this place every day while driving over the Vanšu bridge. It is nice to see how clean its territory is, but at the same time, outside it is quite polluted with the waste of Old Riga hangouts. Every weekday morning, you can look at people sitting with their cars in traffic jams and crashing them into regular potholes.</div>
+            <div class="text regular-text">
+                I look at this place every day while driving over the Vanšu Bridge. It is nice to see how clean its territory is, but at the same time, outside it is quite polluted with the waste of Old Riga hangouts. Every weekday morning, you can look at people sitting with their cars in traffic jams and crashing them into regular potholes. It makes you wonder if there are other modes of transport that would be more environmentally friendly and reduce traffic in this area. At the same time, looking at the head of the Daugava, you can observe various water vessels moving along the river, giving another dimension to this landscape. This creates an opportunity to use the Daugava not only as a transport route, but also as a tourism and recreation resource. Maybe this place could become a popular route for cyclists, where they could enjoy both the beautiful view and active time in nature.
+            </div>
         </div>
     </div>
     <div class="section animated" id="park">
         <div class="heading title">Bastejkalns Park</div>
         <div class="content">
             <div class="image">
-                <img src="assets/images/bastejkalns.jpg"/>
+                <img src="assets/images/bastejkalns.jpg" alt="Bastejkalns park"/>
             </div>
-            <div class="text regular-text">In my opinion, the most pleasant place in Riga is relatively quiet and peaceful, except for the loud BMWs that crash forward with their "straight exhausts". It's very nice to see someone walking their dog or someone reading a book outdoors in the sun. This place is always associated with the presence of the University of Latvia - where smiling lecturers are always waiting for us.</div>
+            <div class="text regular-text">
+                In my opinion, the most pleasant place in Riga is relatively quiet and peaceful, except for the loud BMWs that crash forward with their "straight exhausts". It is very nice to see someone walking their dog or someone else reading a book outdoors in the sun. This place is always associated with the presence of the University of Latvia, where smiling lecturers are always waiting for us. In the morning you can hear the traffic of students as they rush to lectures, but in the afternoon the place becomes calm and an invitation to enjoy the atmosphere of the city with other residents. In this place, you can feel the wind of Riga flowing through people's life and cultural diversity. It is like a microcosm where different worlds meet - students, residents, tourists. It is a place where everyone can feel part of the joy of the big city, being simply the silence that dwells between all the loud and fast moments.
+            </div>
         </div>
     </div>
 
@@ -115,18 +123,22 @@
         <div class="heading title">The Freedom monument</div>
         <div class="content">
             <div class="image half-size">
-                <img src="assets/images/monument.jpg"/>
+                <img src="assets/images/monument.jpg" alt="The Freedom monument"/>
             </div>
-            <div class="text regular-text">The Freedom monument is a very nice place. It always reminds us of Latvia's freedom fighters. It is important to take care of this place, maintain it and not let any stranger take it away from us! I believe that the project "Shine like a star!" by Karlis Zale! has been very successful and for every Latvian, tourist or anyone else, this place makes the eyes shine.</div>
+            <div class="text regular-text">
+                The Freedom monument is a very nice place. It always reminds us of Latvia's freedom fighters. It is important to take care of this place, maintain it and not let any stranger take it away from us! I believe that the project "Shine like a star!" by Kārlis Saale! has been very successful and for every Latvian, tourist or anyone else, this place makes the eyes shine. The monument is not only symbolic, but also visually exciting, as if stars decorate the air of Latvia. Its fine detail work and beauty give the place a special atmosphere. Here, around the parking lot, you can feel solemn and proud of Latvia's history and freedom. It is like a mirror of Latvianness that reminds us of respect, honor and independence. I assume that many come here to look back at the monument with pride and deep gratitude to those who fought for our country.
+            </div>
         </div>
     </div>
     <div class="section animated" id="university">
         <div class="heading title">University of Latvia</div>
         <div class="content">
             <div class="image">
-                <img src="assets/images/university.jpg"/>
+                <img src="assets/images/university.jpg" alt="University of Latvia"/>
             </div>
-            <div class="text regular-text">And here we are - at the University of Latvia. A place where young people and everyone who wants to learn climb their career ladder. It is nice to meet both lecturers and transfer colleagues here. I associate the university with exchanging ideas with colleagues, studying things and acquiring knowledge. When arriving here, the main thing is not to forget to use only the side stairs near the main door, in the worst case - use the window. Of course, it's not always as good as it sounds, sometimes it's cold here, the windows blow, but after all, it's ours - the University of Latvia! </div>
+            <div class="text regular-text">
+                And here we are - at the University of Latvia. This is the place where young people and everyone who wants to learn and grow as a person climb their career ladder. It is nice to meet both inspiring instructors who are eager to share their knowledge, and also to meet different perspectives and talented colleagues. For me, the University of Latvia is associated with a deep exchange of thoughts, a critical mind that increases ideas, as well as a deep immersion in the study of matters and the acquisition of knowledge. When arriving here, the main thing is not to forget to use only the side stairs near the main door, in the worst case - to use the window, as a symbolic path to wisdom and revelations. Of course, it's not always as good as it sounds, sometimes it's cold here, the windows blow, but that's why we try to overcome obstacles and go towards opportunities for knowledge and growth. That is why, without a doubt, the University of Latvia is a part of us, which adds new knowledge to us every day and promotes our personal development.
+            </div>
         </div>
     </div>
 </section>

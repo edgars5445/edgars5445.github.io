@@ -7,7 +7,7 @@
 
     .inactive {
         font-weight: var(--text-light);
-        color: var(--color-gray);
+        color: var(--color-white);
     }
 
     /** NAV **/
